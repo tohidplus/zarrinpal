@@ -16,7 +16,7 @@ class CreateZarrinpalLogsTable extends Migration
         Schema::create('zarrinpal_logs', function (Blueprint $table) {
             $table->increments('id');
             $table->string('authority');
-            $table->string('ref_id');
+            $table->string('ref_id')->nullable();
             $table->integer('price')->nullable();
             $table->enum('status',['pending','successful','unsuccessful','canceled'])->default('pending');
             $table->string('status_code')->nullable();
