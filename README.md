@@ -46,7 +46,7 @@ return [
     'description'=>'Some text here',
 ];
 ```
-Add the **merchantId , description, and** **the** **callBackUrl** which you want to redirect the user from bank after transaction is finished.
+Add the **merchantId , description and** **the** **callBackUrl** which you want to redirect the user from bank after transaction is finished.
 
 > Notice: you can leave callbackUrl and description here blanked and define it when you call **setData** method dynamically as we will explain  in the next part.
 
