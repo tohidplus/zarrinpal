@@ -1,6 +1,6 @@
 {
     "name": "tohidplus/zarrinpal",
-    "description": "A Laravel package for connectiong to (Iran) Zarrinpal gateway",
+    "description": "A Laravel package for connecting to (Iran) Zarrinpal gateway",
     "type": "library",
     "license": "MIT",
     "authors": [
