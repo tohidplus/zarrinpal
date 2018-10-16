@@ -16,14 +16,14 @@ composer require tohidplus/zarrinpal
 2. Add the following code to end of the providers array in **config/app.php** file.
 ```php
 'providers'=>[
-    \Tohidplus\Zarrinpal\ZarrinpalServiceProvider::class,
+    Tohidplus\Zarrinpal\ZarrinpalServiceProvider::class,
 ];
 ```
 
 3. Add the following code to end of the ailias array in **config/app.php** file.
 ```php
 'aliases' => [
-   'Zarrinpal'=>\Tohidplus\Zarrinpal\Facades\Zarrinpal::class
+   'Zarrinpal'=>Tohidplus\Zarrinpal\Facades\Zarrinpal::class
 ];
 ```
 
