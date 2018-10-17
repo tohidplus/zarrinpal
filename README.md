@@ -77,9 +77,9 @@ Parameters
 
 
 Parameters
-- First parameter is the request which you get from bank and you have to pass it to **verify method**.
-- Second parameter is a callback function which will be triggered if transaction is successful and accepts refId as parameter.
-- Third parameter is a callback function which will be triggered if transaction was unsuccessful.
+- **request** is the request which you get from bank and you have to pass it to **verify method**.
+- **success**  is a callback function which will be triggered if transaction is successful and accepts refId as parameter.
+- **error** is a callback function which will be triggered if transaction was unsuccessful.
 
 ---
 ### Full example
