@@ -96,7 +96,7 @@ class PaymentController extends Controller
     public function redirectUserToBank()
     {
 
-        Zarrinpal::setData(100,'someone@example.com','09XXXXXXXXX','Somedescripion','another/callback/url');
+        Zarrinpal::setData(100,'someone@example.com','09XXXXXXXXX','Some descripion','another/callback/url');
 
         return Zarrinpal::redirect(function($status){
             // Do something if there was a problem while redirection
@@ -109,7 +109,7 @@ class PaymentController extends Controller
         function ($refId){
             // The transaction is successfull    
         },function ($message,$status=null){
-            // The trasnsaction was unsscessful
+            // The trasnsaction was unsuccessful
             // if message was canceled it means user has canceled transaction it self
             // if message was unsuccessful it means an error has occurred 
         });
