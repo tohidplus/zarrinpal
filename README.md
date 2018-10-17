@@ -20,7 +20,7 @@ composer require tohidplus/zarrinpal
 ];
 ```
 
-3. Add the following code to end of the ailias array in **config/app.php** file.
+3. Add the following code to end of the aliases array in **config/app.php** file.
 ```php
 'aliases' => [
    'Zarrinpal'=>Tohidplus\Zarrinpal\Facades\Zarrinpal::class
