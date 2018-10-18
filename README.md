@@ -109,7 +109,7 @@ class PaymentController extends Controller
         function ($refId){
             // The transaction is successfull    
         },function ($message,$status=null){
-            // The trasnsaction was unsuccessful
+            // The trasnsaction is unsuccessful
             // if message was canceled it means user has canceled transaction them self
             // if message was unsuccessful it means an error has occurred 
         });
