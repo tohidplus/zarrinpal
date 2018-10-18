@@ -42,7 +42,7 @@ php artisan migrate
 <?php
 return [
     'merchantId'=>'XXXXX XXXXX XXXXX',
-    'callBackUrl'=>url('verifyPayment'),
+    'callBackUrl'=>'http://yourwebsite.com/verifyPayment',
     'description'=>'Some text here',
 ];
 ```
