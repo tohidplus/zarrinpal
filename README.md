@@ -71,6 +71,7 @@ Parameters:
 Parameters
 
 - It only accepts one parameter as a callback funtion and if there is an error while redirection the callback function will be triggered with status code as parameter.
+
 **verify** method
 
 *This method indicates if transaction is successful or not.*
