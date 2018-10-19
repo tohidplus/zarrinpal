@@ -80,7 +80,7 @@ Parameters
 Parameters
 - **request** is the request which you get from bank and you have to pass it to **verify method**.
 - **success**  is a callback function which will be triggered if transaction is successful and accepts refId as parameter.
-- **error** is a callback function which will be triggered if transaction was unsuccessful.
+- **error** is a callback function which will be triggered if transaction is unsuccessful.
 
 ---
 ### Full example
