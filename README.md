@@ -1,5 +1,6 @@
 
 [![GitHub issues](https://img.shields.io/github/issues/tohidplus/zarrinpal.svg)](https://github.com/tohidplus/zarrinpal/issues)
+[![Total Downloads](https://img.shields.io/packagist/dt/tohidplus/zarrinpal.svg)](https://packagist.org/packages/tohidplus/zarrinpal)
 [![GitHub stars](https://img.shields.io/github/stars/tohidplus/zarrinpal.svg)](https://github.com/tohidplus/zarrinpal/stargazers)
 
 # Zarrinpal package for Laravel
