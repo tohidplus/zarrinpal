@@ -3,7 +3,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/tohidplus/zarrinpal.svg)](https://packagist.org/packages/tohidplus/zarrinpal)
 [![GitHub stars](https://img.shields.io/github/stars/tohidplus/zarrinpal.svg)](https://github.com/tohidplus/zarrinpal/stargazers)
 [![GitHub license](https://img.shields.io/github/license/tohidplus/zarrinpal.svg)](https://github.com/tohidplus/zarrinpal/blob/master/LICENSE.txt)
-# Zarrinpal package for Laravel
+# Laravel package for Zarinpal
 This package is built for connecting Iranian websites to Zarrinpal gateway.
 
 ---
